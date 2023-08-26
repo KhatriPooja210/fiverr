@@ -1,8 +1,8 @@
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import React from "react";
 import { Link } from "react-router-dom";
-import getCurrentUser from "../../utils/GetCurrentUser";
-import newRequest from "../../utils/newRequest";
+import getCurrentUser from "../../utils/GetCurrentUser.js";
+import newRequest from "../../utils/newRequest.js";
 import "./MyGigs.scss";
 
 const MyGigs = () => {
